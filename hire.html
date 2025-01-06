@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Fernando Murra Vicario | Web Developer</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="logo.png" alt="logo">
+        </a>
+        <ul class="links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class='bx bx-menu' id="menu"></i>
+    </nav>
+
+    <section id="hire">
+        <h2 class="section-title">Hire Me</h2>
+        <div class="hire-container">
+            <div class="hire-info">
+                <h3>Let's Work Together</h3>
+                <p>Please fill out the form below with details about your project or position. I'll get back to you as soon as possible.</p>
+            </div>
+            <form class="hire-form" id="hireForm">
+                <!-- Company Information -->
+                <div class="form-group">
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <!-- Position Details -->
+                <div class="form-group">
+                    <label for="position">Position Type</label>
+                    <select id="position" name="position" required>
+                        <option value="">Select Position Type</option>
+                        <option value="full-time">Full-time</option>
+                        <option value="part-time">Part-time</option>
+                        <option value="contract">Contract</option>
+                        <option value="freelance">Freelance Project</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="budget">Budget Range (USD)</label>
+                    <select id="budget" name="budget" required>
+                        <option value="">Select Budget Range</option>
+                        <option value="under-5k">Under $5,000</option>
+                        <option value="5k-10k">$5,000 - $10,000</option>
+                        <option value="10k-20k">$10,000 - $20,000</option>
+                        <option value="20k-plus">$20,000+</option>
+                        <option value="salary">Salary Position</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="timeline">Timeline/Start Date</label>
+                    <input type="date" id="timeline" name="timeline" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Project/Position Description</label>
+                    <textarea id="description" name="description" rows="5" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="requirements">Technical Requirements</label>
+                    <textarea id="requirements" name="requirements" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn primary">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Fernando Murra Vicario. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class='bx bxl-github'></i></a>
+                <a href="#" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="social-icon"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="hire.js"></script>
+</body>
+</html>

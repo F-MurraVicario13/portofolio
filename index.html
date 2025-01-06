@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Murra Vicario | Web Developer</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="container">
+    <nav>
+        <div class="logo">
+        <img src="logo.png" alt="logo">
+        </div>
+        <ul class="links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a href="hire.html" class="btn">Hire Me</a>
+    </nav>
+
+    <section id="home">
+        <div class="home-content">
+            <div class="text-content">
+                <p class="subtitle">Welcome to my Portfolio</p>
+                <h1>Hi, I'm <span>Fernando Murra Vicario</span></h1>
+                <h2>Full Stack Developer</h2>
+                <p class="description">Crafting digital experiences through clean code and innovative design solutions. Based in St. Louis and San Antonio.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/F-MurraVicario13" class="social-icon"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/fernando-murra-vicario-/" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/fernan_murra13/" class="social-icon"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+            <div class="image-content">
+                <img src="headshot.jpeg" alt="Fernando's Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>With over 2 years of experience in web development, I specialize in creating responsive and user-friendly applications that solve real-world problems.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>3+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend</h3>
+                <p>HTML5, CSS3, JavaScript, React</p>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-server'></i>
+                <h3>Backend</h3>
+                <p>Node.js, Python, SQL</p>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-palette'></i>
+                <h3>Design</h3>
+                <p>UI/UX, Figma, Adobe XD</p>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-data'></i>
+                <h3>Database</h3>
+                <p>MongoDB, MySQL, PostgreSQL</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2 class ="section-title">Featured Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project_1.png" alt="Group Chat Project">
+                </div>
+                <h3 class="project-title">Group Chat</h3>
+                <p class="project-description">
+                    A real-time chat application built with Python and Flask, featuring user authentication and instant messaging capabilities. The app integrates frontend and backend components to deliver a functional and interactive user experience.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">WebSocket</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/F-MurraVicario13/GroupChat" class="project-btn view-code" target="_blank">View Code</a>
+                    <a href="#" class="project-btn live-demo" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project_2.png" alt="House Cost Predictor">
+                </div>
+                <h3 class="project-title">House Cost Predictor</h3>
+                <p class="project-description">
+                    Used Machine Learning to analyze real estate data, visualize key insights, and create a user-friendly Streamlit web app for predicting house prices.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Streamlit</span>
+                    <span class="tech-tag">Data Analysis</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/F-MurraVicario13/HouseCostPredictor" class="project-btn view-code" target="_blank">View Code</a>
+                    <a href="https://live-demo.com" class="project-btn live-demo" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project_3.png" alt="Weather App">
+                </div>
+                <h3 class="project-title">Weather App</h3>
+                <p class="project-description">
+                    A dynamic weather application providing real-time updates for cities worldwide. Built with HTML, CSS, and JavaScript, it integrates with the OpenWeatherMap API to fetch live data.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">API Integration</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/F-MurraVicario13/weatherApp" class="project-btn view-code" target="_blank">View Code</a>
+                    <a href="https://live-demo.com" class="project-btn live-demo" target="_blank">Live Demo</a>
+                </div>
+            </div>
+                </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Talk About Your Project</h3>
+                <p>Feel free to reach out for collaborations or just a friendly hello</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class='bx bx-envelope'></i>
+                        <span>fmuvic13@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-phone'></i>
+                        <span>+1 (830) 708-4827</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-map'></i>
+                        <span>St. Louis & San Antonio</span>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Fernando Murra Vicario. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/F-MurraVicario13" class="social-icon"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/fernando-murra-vicario-/" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/fernan_murra13/" class="social-icon"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+    </footer>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
