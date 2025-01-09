@@ -135,6 +135,7 @@
                     <span class="tech-tag">Python</span>
                     <span class="tech-tag">Streamlit</span>
                     <span class="tech-tag">Data Analysis</span>
+                    <span class="tech-tag">Machine Learning</span>
                 </div>
                 <div class="project-actions">
                     <a href="https://github.com/F-MurraVicario13/HouseCostPredictor" class="project-btn view-code" target="_blank">View Code</a>
@@ -186,12 +187,29 @@
                     </div>
                 </div>
             </div>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
+            <form action="https://formsubmit.co/fmuvic13@gmail.com"  class="contact-form">
+                <input type="hidden" name="_subject" value="Contact Form Submission">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="true">
+                <input type="hidden" name="_next" value="thank-you.html">
+                
+                <div class="form-group">
+                  <label for="contact-name" class="visually-hidden">Your Name</label>
+                  <input type="text" id="contact-name" name="name" placeholder="Your Name" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="contact-email" class="visually-hidden">Your Email</label>
+                  <input type="email" id="contact-email" name="email" placeholder="Your Email" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="contact-message" class="visually-hidden">Your Message</label>
+                  <textarea id="contact-message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                
                 <button type="submit" class="btn primary">Send Message</button>
-            </form>
+              </form>
         </div>
     </section>
 
